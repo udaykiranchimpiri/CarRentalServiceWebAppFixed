@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Car Rental Services</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav id="navbar">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#cars">Cars</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home">
+        <h1>Welcome to Our Car Rental Services</h1>
+        <p>Find the best car for your needs!</p>
+    </section>
+
+    <!-- Cars Section -->
+    <section id="cars">
+        <!-- Example of a car entry -->
+        <div class="car">
+            <img src="car_image.jpg" alt="Car Name">
+            <h2>Car Name</h2>
+            <p>Price: $Price per day</p>
+            <video controls>
+                <source src="car_video.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+        <!-- More car entries here -->
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Query about Car Details</h2>
+        <form id="contactForm">
+            <input type="text" id="name" name="name" placeholder="Your name">
+            <input type="email" id="email" name="email" placeholder="Your email">
+            <textarea id="message" name="message" placeholder="Your message"></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
